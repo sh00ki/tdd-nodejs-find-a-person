@@ -18,3 +18,10 @@ if(this.findPerson(nameOfPerson).length>0)
     return true;
 return false; // if lenfth<0 return false
 };
+Map.prototype.inconsistencyOfMap = function(nameOfPerson) {
+ if(this.findPerson(nameOfPerson).length>1)
+      return false;
+ else 
+     return true;
+};
+ 
