@@ -10,5 +10,5 @@ describe('Find a person', function() {
   });
 });
  Map.prototype.LookingForPerson = function(nameOfPerson) {
- return [];
+ return ["I met "+ nameOfPerson +" at his house"];
  };
