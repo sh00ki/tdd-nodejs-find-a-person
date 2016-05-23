@@ -15,7 +15,6 @@ describe('Find a person', function() {
 
 Map.prototype.findLocation = function(nameOfPerson) {
 if(this.findPerson(nameOfPerson).length>0)
-    return false;
-else 
     return true;
+return false; // if lenfth<0 return false
 };
