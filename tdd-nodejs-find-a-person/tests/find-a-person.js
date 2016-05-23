@@ -12,3 +12,10 @@ describe('Find a person', function() {
  Map.prototype.LookingForPerson = function(nameOfPerson) {
  return ["I met "+ nameOfPerson +" at his house"];
  };
+
+Map.prototype.findLocation = function(nameOfPerson) {
+if(this.findPerson(nameOfPerson).length>0)
+    return false;
+else 
+    return true;
+};
