@@ -9,3 +9,6 @@ describe('Find a person', function() {
     expect(posts).to.be.eql(["I met Or A. at Chabad house Bangkok", "We found Or A. R.I.P at Langtang valley"]);
   });
 });
+ Map.prototype.LookingForPerson = function(nameOfPerson) {
+ return [];
+ };
